@@ -28,6 +28,7 @@
 }
 
 *,*::before,*::after{box-sizing:border-box;}
+.ltr-num{unicode-bidi:isolate;direction:ltr;display:inline-block;}
 html{scroll-behavior:smooth;}
 body{
   margin:0;
