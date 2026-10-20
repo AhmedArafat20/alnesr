@@ -1,5 +1,5 @@
 /* =========================================================
-   النسر لتوصيل الطلبيات — shared interactions
+   المتميز لتوصيل الطلبيات — shared interactions
    ========================================================= */
 (function () {
   "use strict";
@@ -127,7 +127,7 @@
       });
       node.addEventListener("click", function () {
         var name = node.getAttribute("data-name");
-        var msg = "مرحباً النسر، أريد طلب توصيل من/إلى " + name + ".";
+        var msg = "مرحباً المتميز، أريد طلب توصيل من/إلى " + name + ".";
         openWhatsApp(PRIMARY_PHONE_INTL, msg);
       });
     });
@@ -174,7 +174,7 @@
       }
 
       var lines = [
-        "مرحباً النسر لتوصيل الطلبيات 🦅",
+        "مرحباً المتميز لتوصيل الطلبيات 🦅",
         "الاسم: " + name,
         "رقم الهاتف: " + phone,
         "نوع الخدمة: " + service,
